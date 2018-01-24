@@ -1,0 +1,580 @@
+/* 
+    Created on  : Jan 23, 2018, 5:31:24 AM
+    Author      : Saki Rezwanul Haque
+    Batch       : CTG Online 07 (Responsive Web Design)
+
+*/
+
+/* for mobile responsiveness */
+    
+ @media (min-width: 767px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+        
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+/* for tab responsiveness */
+@media (max-width: 1200px) and (min-width: 767px) {  }
+
+/* for desktop responsiveness */
+@media (min-width: 1200px){  }
+
+
+/* Styling starts from here */
+
+@font-face {
+    font-family: "scriptina";
+    src: url('../fonts/scriptina.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url('../fonts/ProximaNovaRegular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Proxima Nova Web";
+    src: url('../fonts/ProximaNovaRegular.woff') format("woff");
+}
+
+/* header part stars here */
+
+.headerWrapper{
+    background-image: url('../images/headerbg.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 750px;
+}
+
+.navContainer {
+    background: url('../images/navbg.png');
+    background-size: cover; 
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    margin: 0;
+}
+
+.navbar-default .navbar-brand {
+    font-family: "scriptina";
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 4px;
+    margin-top: -8px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.navbar-default .navbar-brand:hover {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 12px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    text-decoration: none;
+    text-shadow: none;
+    color: wheat;
+    transform-origin: left top;
+    transform: scale(1.1);
+}
+
+#navbarH > .navHHover .navSpan > a > span {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+#navbarH > .navHHover .navSpan > a > span:hover {
+    text-decoration: none;
+    text-shadow: none;
+    color: #fff;
+    cursor: default;
+}
+
+.headerText {
+    margin-top: 110px;
+}
+
+.headerText > h1 {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+}
+
+.headerText > img {
+    width: 12%;
+    margin-bottom: 50px;
+}
+
+.headerText > p {
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    font-size: 19px;
+    white-space: pre-line;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+
+.headerText .btnOne {
+    text-shadow: none;
+    background: url('../images/navbg.png');
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 10px 40px;
+    border: 1px dashed white;
+    border-radius: 0px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.headerText .btnOne:hover {
+    background: #8C423D;
+    color: #fff;
+}
+
+.headerText .btnOne:focus{
+    color: #fff;
+}
+
+.navSeparator {
+    position: absolute;
+    top: 523px;
+}
+
+
+/* testimony part stars here */
+
+.testWrapper {
+    background-image: url('../images/artbg.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.testWrapper > .row > .testContent {
+    padding: 70px 0 60px;
+}
+
+.testContent > .testLeft > h1 {
+    font-family: 'Alegreya', serif;
+    color: #56534c;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+.testContent > .testLeft > h3 {
+    font-family: 'Alegreya', serif;
+    color:#a47d5e;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 4px 0 40px;
+}
+
+.testContent > .testLeft > p {
+    font-family: 'Proxima Nova', sans-serif;
+    color: #56534c;
+    font-size: 14px;
+    white-space: pre-line;
+}
+
+.testContent > .testLeft > h2 {
+    font-family: 'Alegreya', serif;
+    color:#56534c;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.testContent > .testRight {
+    margin-top: 40px;
+}
+
+.testRight > .cakePic {
+    margin-top: 20px;
+}
+
+.testRight > .cakePic > img {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.testRight > .cakePic > img:hover {
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.testRight > .centerPic {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.testRight > .centerPic:hover {
+    transform: rotate(45deg);
+}
+
+
+/* pancake part stars here */
+
+.pcakeWrapper {
+    background-image: url('../images/pancakecback.png'), url('../images/tastybg.jpg');
+    background-position: 50% 90px, center;
+    background-size: 55%, cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    padding-top: 60px;
+    padding-bottom: 20%;
+}
+
+.pcakeContent > .pcakeText {
+    position: absolute;
+    top: 30%;
+    left: -1%;
+}
+
+.pcakeContent > .pcakeText > h1 {
+    color: #56534c;
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.pcakeContent > .pcakeText > h4 {
+    color: #b2927a;
+    font-family: 'Alegreya', serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.pcakeContent > .pcakeText > p {
+    color:#56534c;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 14px;
+    white-space: pre-line;
+    margin-bottom: 10%;
+}
+
+.pcakerate > ul > li > a > img {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.pcakerate > ul > li > a > img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-filter: brightness(115%);
+    filter: brightness(115%);
+}
+
+.pcakeText > .pcakerate {
+    margin-bottom: 21px;
+}
+
+.carousel {
+    height: 120px;
+}
+
+.carousel .item{
+    height: 130px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    outline: none;
+}
+
+.glyphicon-chevron-left:before, .glyphicon-chevron-right:before {
+    color: #b2927a;
+}
+
+.carousel-indicators li {
+    visibility: hidden;
+}
+
+
+/* breakfast part starts here */
+
+.breakWrappaer {
+    background-image: url('../images/breakfast.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.breakWrappaer > .row > .breakContent {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.breakContent > .breakLeft > h1 {
+    color: #fff;
+    font-family: 'Alegreya', serif;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 6%;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.breakContent > .breakLeft > h4 {
+    color: #c8a593;
+    font-family: 'Alegreya', serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.breakContent > .breakLeft > h3 {
+    color: #fff;
+    font-family: 'Alegreya', serif;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.breakContent > .breakLeft > p {
+    color: #c2beba;
+    font-size: 13px;
+}
+
+.breakContent > .breakLeft > h5 {
+    color: #dfc691;
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+}
+
+.breakRight > .brContent {
+    position: absolute;
+    top: 12%;
+    left: 4%;
+}
+
+.breakRight > .brContent > h5 > span {
+    float: right;
+}
+
+.breakRight > .brContent > h2 {
+    color: #56534c;
+    font-family: 'Alegreya', serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    white-space: pre-line;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.breakRight > .brContent > p {
+    color:#56534c;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 13px;
+    line-height: 1.9;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.breakRight > .brContent .btnTwo {
+    text-shadow: none;
+    background: transparent;
+    color: #b59881;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    padding: 10px 55px;
+    border:1px solid #b59881;
+    border-radius: 0px;
+    margin-top: 20px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.breakRight > .brContent .btnTwo:hover {
+    background: #95a5a6;
+    color: #fff;
+}
+
+
+/* sandwich part starts here */
+
+.swichWrapper {
+    background-color: #f3f1e9;
+    background-size: cover;
+    min-height: 1000px;
+}
+
+.swichContent > h1 {
+    color:#56534c;
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: -40px;
+    margin-bottom: 5px;
+}
+
+.swichContent > h4 {
+    color: #a47d5e;
+    font-family: 'Alegreya', serif;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.swichContent > .swichLeft > img {
+    width: 20%;
+    margin-top: 30px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.swichContent > .swichLeft > img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.swichContent > .swichLeft > h2 {
+    color:#a47d5e;
+    font-size: 30px;
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.swichContent > .swichLeft > p {
+    color:#56534c;
+    font-family: 'Proxima Nova', sans-serif;
+    white-space: pre-line;
+    letter-spacing: .5px;
+}
+
+.swichContent > .swichRight {
+    margin-top: 7%;
+}
+
+.swichContent > .swichRight > .btnPos {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.swichContent > .swichRight .btnThree {
+    text-shadow: none;
+    background: #fff;
+    color: #a47d5e;
+    font-family: 'Alegreya', serif;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px 35px;
+    border: 1px dashed #a47d5e;
+    border-radius: 0px; 
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.swichContent > .swichRight .btnThree:hover {
+    background: #a47d5e;
+    color: #fff;
+    border: 1px dashed #adff2f;
+}
+
+
+/* footer part starts here */
+
+.footerWrapper {
+    background-color: #f3f1e9;
+    background-size: cover;
+}
+
+.footerWrapper > .row > .footerContent {
+    margin-bottom: 40px;
+}
+
+.footerContent > .fcLeft, .fcRight {
+    background: #efede2;
+    padding: 30px 0 20px;
+    border-bottom: 1px solid #c2beba;
+    border-top: 1px solid #c2beba;
+}
+
+.fcCentre > a {
+    text-decoration: none;
+    color:#726f68;
+    font-family: "scriptina";
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.fcCentre > a:hover {
+    font-weight: 600;
+}
+
+.footerContent ul li {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.footerContent ul li a {
+    text-decoration: none;
+    color: #35332f;
+    font-family: 'Alegreya', serif;
+    font-size: 16px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.footerContent ul li a:hover {
+    color: #a47d5e;
+    font-size: 15px;
+}
+
+/* styling ends here */
+
+
+
+
